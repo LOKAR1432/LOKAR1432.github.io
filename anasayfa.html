@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="umar" />
+    <meta name="description" content="PetShop" />
+    <meta name="keywords" content="pet,shop,web,tasarim" />
+    <title>PetShop</title>
+    <link rel="stylesheet" href="css.css" />
+    <!--* css linki  -->
+    <link rel="stylesheet" href="resimler.img" />
+    <!--* resimler linki  -->
+
+    <link rel="stylesheet" href="adresGoogleHarita.html">
+    <link rel="stylesheet" href="firsatlar.html">
+    <link rel="stylesheet" href="admin.html">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--* bootstrap linki -->
+  </head>
+  <body id="page-body">
+    <!-- !navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+        <div class="container">
+            <a href="#page-body" class="navbar-brand text-uppercase" title="new design website link"><img width="44" height="44" src="https://img.icons8.com/external-filled-line-andi-nur-abdillah/64/000000/external-Paw-pet-and-vet-(filled-line)-filled-line-andi-nur-abdillah.png" alt="external-Paw-pet-and-vet-(filled-line)-filled-line-andi-nur-abdillah"/> PetShop</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
+                aria-controls="myNavbar" aria-label="menüyü açma kapama butonu" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="myNavbar" aria-labelledby="myLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="myLabel">Menü</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Kapat">
+                    </button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto text-uppercase py-lg-2 te">
+                      <li class="nav-item"><a href="anasayfa.html" class="nav-link btn-close-canvas">Ana Sayfa</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link btn-close-canvas">Servisler</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link btn-close-canvas">Yem ve Oyuncaklar</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link btn-close-canvas">Hakkımızda</a></li>
+                        <li class="nav-item"><a href="#team" class="nav-link btn-close-canvas">Ekip</a></li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            İletişim
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#contact">Şikayet ve Öneri</a></li>
+                            <li><a class="dropdown-item" href="adresGoogleHarita.html">Adresimiz</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item "><a href="admin.html" class="nav-link btn-close-canvas " >Admin</a></li>
+
+                    </ul>
+                    
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- !navbar bitişi-->
+
+    <!-- ! header -->
+    <header class="backImage text-white text-center">
+      <div class="container">
+        <div class="backImage-sub mb-4">PetShopumuza Hoşgeldiniz</div>
+        <div class="backImage-heading text-uppercase">
+          Türkiyenin En İyi PetShopu
+        </div>
+        <a
+          href="#about"
+          class="btn btn-danger btn-lg p-lg-4 text-uppercase fw-bolder"
+          >Daha fazla anlat</a
+        >
+      </div>
+    </header>
+    <!-- ! header bitişi -->
+    
+    
+    <section class="mySesction">
+      <div class="container">
+        <div class="text-center ">
+          <h2 class="s-heading">Fırsatları Kaçırmayın</h2>
+          </div>
+          </div>
+    </section>
+
+
+    <!-- ! carousel başlangıcı -->
+    <div id="carouselExampleCaptions" class="carousel slide my-1" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button> -->
+      </div>
+      <div class="carousel-inner">
+        <!--* 1. yemek-->
+        <div class="carousel-item active  "data-bs-interval="1500">
+          <a href="firsatlar.html"   >
+          <img src="resimler.img/yemek1.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Köpek Mamaları</h5>
+          </div>
+        </a>
+        </div>
+          <!--* 2. yemek-->
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="firsatlar.html" >
+          <img src="resimler.img/yemek2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 >Sürpriz Hediyeler</h5>
+          </div>
+          </a>
+        </div>
+          <!--* 3. yemek-->
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="firsatlar.html" >
+          <img src="resimler.img/yemek3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 >Kum Küreği</h5>
+          </div>
+          </a>
+        </div>
+          <!--* 4. yemek-->
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="firsatlar.html" >
+          <img src="resimler.img/yemek4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Kedi Konserveleri</h5>
+          </div>
+          </a>
+        </div>
+          <!--* 5. yemek-->
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="firsatlar.html">
+          <img src="resimler.img/yemek5.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Kedi Konserveleri</h5>
+          </div>
+          </a>
+        </div>
+          <!--* 6. yemek-->
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="firsatlar.html" >
+          <img src="resimler.img/yemek6.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Köpek Tarağı</h5>
+          </div>
+          </a>
+        </div>
+
+
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+        <span class="bi bi-arrow-left-square fs-1"   aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <span class="bi bi-arrow-right-square fs-1"   aria-hidden="true"></span>
+
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- ! carousel bitişi -->
+
+
+    <!-- ! servis başlangıcı-->
+    <section id="services" class="mySection">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="s-heading text-uppercase fw-bold">Servisler</h2>
+          <h3 class="s-subheading text-muted">
+            Kalite Markamızdır.
+          </h3>
+        </div>
+        <div class="row text-center">
+          <!--* 1. colon-->
+          <div class="col-md-4">
+            <div
+              class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center m-auto"
+              style="width: 8rem; height: 8rem"
+              aria-hidden="true"
+            >
+              <i class="" style="font-size: 4.5rem"> <img width="100" height="100" src="https://img.icons8.com/ios/100/hotline.png" alt="hotline"/> </i>
+            </div>
+            <h4 class="my-3 fw-bold">7/24</h4>
+            <p class="text-muted">
+              7/24 sipariş verebilirsiniz.
+            </p>
+          </div>
+          <!--* 2. colon-->
+          <div class="col-md-4">
+            <div
+              class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center m-auto"
+              style="width: 8rem; height: 8rem"
+              aria-hidden="true"
+            >
+              <i class="" style="font-size: 4.5rem"> <img width="100" height="100" src="https://img.icons8.com/ios/100/dog-bowl.png" alt="dog-bowl"/> </i>
+            </div>
+            <h4 class="my-3 fw-bold">Yem Çeşitleri</h4>
+            <p class="text-muted">
+              Her Türlü Yem Çeşitlerimiz Mecvuttur.
+            </p>
+          </div>
+          <!--* 3. colon-->
+          <div class="col-md-4">
+            <div
+              class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center m-auto"
+              style="width: 8rem; height: 8rem"
+              aria-hidden="true"
+            >
+              <i class="" style="font-size: 4.5rem"> <img width="100" height="100" src="https://img.icons8.com/ios/100/veterinarian.png" alt="veterinarian"/> </i>
+            </div>
+            <h4 class="my-3 fw-bold">Güvenilir ve Sağlıklı Yemler</h4>
+            <p class="text-muted">
+              Yemlerimiz hayvan dostudur. Kaliteli ve sağlıklıdır.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>  
+    <!-- ! servis bitişi-->
+
+    <!-- ! portfolio başlangıcı-->
+    <section id="portfolio" class="mySection bg-light">
+      <div class="container">
+        <div class="text-center mg-5">
+          <h2 class="s-heading text-uppercase fw-bold"></h2>
+          <h3 class="s-subheading text-muted">
+            Kedi Köpek Papağan Yem ve Oyuncakları
+          </h3>
+        </div>
+        <div class="row gy-4">
+          <!-- * 1. col-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal1" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white p-4">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid w-100"
+                  src="resimler.img/kucuk-resim-kedi1.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="p-caption text-center bg-white">
+                <div class="pc-heading">Kedi Mamaları</div>
+                <div class="pc-subheading text-muted">En iyi Kedi Mamaları</div>
+              </div>
+            </div>
+          </div>
+          <!-- * 2. col-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal2" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white p-4">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid w-100"
+                  src="resimler.img/kucuk-resim-kedi3.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="p-caption text-center bg-white">
+                <div class="pc-heading">Kedi Oyuncakları</div>
+                <div class="pc-subheading text-muted">En Kaliteli Oyuncaklar</div>
+              </div>
+            </div>
+          </div>
+          <!-- * 3. col-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal3" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white p-4">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid w-100"
+                  src="resimler.img/kucuk-resim-kopek4.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="p-caption text-center bg-white">
+                <div class="pc-heading">Köpek Mamaları</div>
+                <div class="pc-subheading text-muted">En Kaliteli Köpek Mamaları</div>
+              </div>
+            </div>
+          </div>
+          <!-- * 4. col-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal4" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white p-4">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid w-100"
+                  src="resimler.img/kucuk-resim-kopek2.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="p-caption text-center bg-white">
+                <div class="pc-heading">Köpek Oyuncakları</div>
+                <div class="pc-subheading text-muted">En Kaliteli Oyuncaklar</div>
+              </div>
+            </div>
+          </div>
+          <!-- * 5. col-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal5" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white p-4">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid w-100"
+                  src="resimler.img/kucuk-resim-papagan5.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="p-caption text-center bg-white">
+                <div class="pc-heading">Kuş Yemleri</div>
+                <div class="pc-subheading text-muted">En Taza Kuş Yemleri</div>
+              </div>
+            </div>
+          </div>
+          <!-- * 6. col-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal6" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white p-4">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid w-100"
+                  src="resimler.img/kucuk-resim-papagan6.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="p-caption text-center bg-white">
+                <div class="pc-heading">Kuş Oyuncakları</div>
+                <div class="pc-subheading text-muted">Yeni Kuş Oyuncakları</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! portfolio bitişi-->
+
+    <!-- ! hakkımızda başlangıcı-->
+    <section id="about" class="mySection">
+      <div class="container">
+        <div class="text-center mb-5 pb-3">
+          <h2 class="s-heading text-uppercase fw-bold">
+            Hakkımızda
+          </h2>
+          <h3 class="s-subheading text-muted">
+            2013'ten bu zamana kadar ki hikayemiz.
+          </h3>
+        </div>
+
+          <ul class="timeline">
+            <!--* 1. liste -->
+            <li>
+              <div class="t-image">
+                <img class="img-fluid rounded-circle h-100" src="resimler.img/kedi-modal1/petshop1.avif" alt="...">
+              </div>
+              <div class="t-panel">
+                <div class="t-heading">
+                  <h4>2013-2015</h4>
+                  <h4 class="subheading">İlk PetShop</h4>
+                </div>
+                <div class="t-body">
+                  <p class="text-muted">2013'te ilk PetShpmuzu açarak faaliyetlere başladık. Gerek kaliteli ürünlerimiz gerek kaliteli hizmetleriz sayesinde ismimiz duyuldu. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestias repudiandae dicta aliquid, consequatur laborum!
+                  </p>
+                </div>
+              </div>
+            <!--* 2. liste -->
+            <li class="t-inverted">
+              <div class="t-image">
+                <img class="img-fluid rounded-circle h-100" src="resimler.img/kedi-modal1/petshop2.avif" alt="...">
+              </div>
+              <div class="t-panel">
+                <div class="t-heading">
+                  <h4>2015-2018</h4>
+                  <h4 class="subheading">İkinci Petshop</h4>
+                </div>
+                <div class="t-body">
+                  <p class="text-muted">Müşterilerimizin memnuyeti ve ısrarı üzerine ikinci PetShopumuzu açtık. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis animi sequi qui, vero veniam quod!</p>
+                </div>
+              </div>
+            </li>
+            <!--* 3. liste -->
+            <li>
+              <div class="t-image">
+                <img class="img-fluid rounded-circle h-100" src="resimler.img/kedi-modal1/petshop3.avif" alt="...">
+              </div>
+              <div class="t-panel">
+                <div class="t-heading">
+                  <h4>2018-2023</h4>
+                  <h4 class="subheading">Web Sayfamız</h4>
+                </div>
+                <div class="t-body">
+                  <p class="text-muted">2018'den beri günümüze kadar  web sayfamız üzerinde de hizmetimizi sürdürüyoruz. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facere explicabo delectus et doloremque voluptatem expedita, voluptate quas saepe officia!</p>
+                </div>
+              </div>
+            </li>
+            <!--* 4. liste -->
+            <li class="t-inverted">
+              <div class="t-image">
+                <img class="img-fluid rounded-circle h-100"  src="resimler.img/kedi-pc.jpg" alt="...">
+              </div>
+              <div class="t-panel">
+                <div class="t-heading">
+                  <h4>Marka</h4>
+                  <h4 class="subheading">Marka & Güven</h4>
+                </div>
+                <div class="t-body">
+                  <p class="text-muted">Memnuniyet artarken bizi kalite ve güven ile anmaya başlandılar. Bu sayede bir marka olduk. En iyi hizmeti ve en kaliteli ürünlerle bu güveni daim tuttuk. Amacımız bu kaliteyi ve güvenilirliği taze tutmak ve müşterilerimizi memnun etmek.</p>
+                </div>
+              </div>
+            </li>
+             <!--* 5. liste -->
+            <li class="t-inverted">
+              <div class="t-image">
+                <img class="img-fluid rounded-circle h-100"  src="resimler.img/kedi-modal1/petshop4.avif" alt="...">
+              </div>
+            </li>
+
+          </ul>
+
+      </div>
+    </section>
+    <!-- ! hakkımızda bitişi-->
+
+    <!-- ! ekip başlangıcı-->
+    <section id="team" class="mySection bg-light">
+      <div class="container">
+        <div class="text-center mb-5 pb-3">
+          <h2 class="s-heading text-uppercase fw-bold">
+            Ekibimiz
+          </h2>
+          <h3 class="s-subheading text-muted">
+            Emeği Geçenler
+          </h3>
+        </div>
+
+        <div class="row">
+          <!--* ekip 1. -->
+          <div class="col-lg-4">
+            <div class="t-member text-center">
+              <img class="mx-auto rounded-circle" src="resimler.img/kedi-modal1/ekip1.avif" alt="...">
+              <h4>Prince Akachi</h4>
+              <p class="text-muted">Baş Tasarımcı</p>
+              <a href="#" class="btn btn-info mx-2 btn-social ">
+                <i class="bi bi-twitter text-white"></i>
+              </a>
+              <a href="#" class="btn btn-primary mx-2 btn-social">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="btn btn-danger mx-2 btn-social">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <!--* ekip 2. -->
+          <div class="col-lg-4">
+            <div class="t-member text-center">
+              <img class="mx-auto rounded-circle" src="resimler.img/kedi-modal1/ekip2.avif" alt="...">
+              <h4>Prince Akachi</h4>
+              <p class="text-muted">Yardımcı</p>
+              <a href="#" class="btn btn-info mx-2 btn-social">
+                <i class="bi bi-twitter text-white"></i>
+              </a>
+              <a href="#" class="btn btn-primary mx-2 btn-social">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="btn btn-danger mx-2 btn-social">
+                <i class="bi bi-instagram "></i>
+              </a>
+            </div>
+          </div>
+          <!--* ekip 3. -->
+          <div class="col-lg-4">
+            <div class="t-member text-center">
+              <img class="mx-auto rounded-circle" src="resimler.img/kedi-modal1/ekip3.jpg" alt="...">
+              <h4>Prince Akachi</h4>
+              <p class="text-muted">Yardımcı</p>
+              <a href="#" class="btn btn-info mx-2 btn-social">
+                <i class="bi bi-twitter text-white"></i>
+              </a>
+              <a href="#" class="btn btn-primary mx-2 btn-social">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="btn btn-danger mx-2 btn-social">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="text-muted">Baş tasarımcı ve yardımcıları</p>
+          </div>
+        </div>
+    </section>
+    <!-- ! ekip bitişi-->
+
+    <!-- ! diğer ekipler başlangıç-->
+    <div class="container py-4">
+      <div class="row align-items-center">
+        <div class="col-sm-6 col-md-3 my-3">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto img-logo" src="resimler.img/google.svg" alt="...">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-3 my-3">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto img-logo" src="resimler.img/ibm.svg" alt="...">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-3 my-3">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto img-logo" src="resimler.img/facebook.svg" alt="...">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-3 my-3">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto img-logo" src="resimler.img/microsoft.svg" alt="...">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- ! diğer ekipler bitişi-->
+
+    <!-- contact start-->
+    <section id="contact" class="mySection">
+      <div class="container">
+          <div class="text-center mb-5">
+              <h2 class="s-heading text-uppercase fw-bold text-white">İletişim</h2>
+              <h3 class="s-subheading text-white">Şikayet, Öneri ve Sorularınız için bize mesaj atın. En kısa zamanda geri dönüş yapılacaktır.
+
+              </h3>
+          </div>
+          <form class="needs-validation" action="result.php" id="FrmContact" novalidate>
+              <div class="row align-items-stretch mb-5">
+                  <div class="col-md-6">
+                      <div class="form-floating mb-4">
+                          <input type="text" id="name" class="form-control" placeholder="Adınız" required
+                              maxlength="40" aria-describedby="ErrName">
+                          <label for="name">Adınız
+                              <span class="text-danger" aria-hidden="true">*</span>
+                              <span class="visually-hidden">zorunlu alan</span>
+                          </label>
+                          <div class="invalid-feedback fst-italic fs-6" id="ErrName"></div>
+                      </div>
+                      <div class="form-floating mb-4">
+                          <input type="email" id="email" class="form-control" placeholder="Eposta" required
+                              maxlength="100" aria-describedby="ErrEmail">
+                          <label for="email">Eposta Adresiniz
+                              <span class="text-danger" aria-hidden="true">*</span>
+                              <span class="visually-hidden">zorunlu alan</span>
+                          </label>
+                          <div class="invalid-feedback fst-italic fs-6" id="ErrEmail"></div>
+                      </div>
+                      <div class="form-floating mb-4">
+                          <input type="tel" id="phone" class="form-control" placeholder="Telefon Numaranız" required
+                              maxlength="15" aria-describedby="ErrPhone">
+                          <label for="phone">Telefon Numaranız
+                              <span class="text-danger" aria-hidden="true">*</span>
+                              <span class="visually-hidden">zorunlu alan</span>
+                          </label>
+                          <div class="invalid-feedback fst-italic fs-6" id="ErrPhone"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-floating form-textarea mb-md-0">
+                          <textarea id="message" class="form-control" placeholder="Mesajınız" required maxlength="300"
+                              aria-describedby="ErrMessage"></textarea>
+                          <label for="message">Mesajınız
+                              <span class="text-danger" aria-hidden="true">*</span>
+                              <span class="visually-hidden">zorunlu alan</span>
+                          </label>
+                          <div class="invalid-feedback fst-italic fs-6" id="ErrMessage"></div>
+                      </div>
+                      <div class="text-white text-end">
+                          <span id="current-character">0</span>
+                          <span> / 300</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="text-center">
+                  <button type="submit" class="btn btn-danger btn-lg text-uppercase py-3 d-block w-100"
+                      id="BtnContact">
+                      Mesaj Gönder
+                  </button>
+              </div>
+          </form>
+      </div>
+  </section>
+  <!-- contact end-->
+
+  <!-- footer start -->
+  <footer class="footer py-3">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start text-muted">
+                Copyright &copy; New Design 2023
+            </div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <a href="#" class="btn btn-info mx-2 btn-social">
+                    <i class="bi bi-twitter text-white"></i>
+                </a>
+                <a href="#" class="btn btn-primary mx-2 btn-social">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="btn btn-danger mx-2 btn-social">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <a href="#" class="link-info text-decoration-none me-3">Gizlilik Politikası</a>
+                <a href="#page-body" class="link-secondary text-decoration-none">Anasayfa</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+
+
+
+
+    <!-- ! portfolio modals başlangıç-->
+    <!--*modal item 1-->
+    <div class="modal fade p-modal" id="PModal1" tabindex="-1" role="dialog" aria-labelledby="myTitle1" aria-hidden="true"
+    
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content text-center py-5 mt-2">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="resimler.img/close-icon.svg" alt="" />
+          </div>
+                <div class="modal-body">
+
+
+                  <!--* 1. kedi maması başlangıç-->
+
+                  <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="resimler.img/kedi-modal1/kedi-mamasi.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Royal Canin Sensible Kedi Maması 15 kg
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                            <p class="h3 text-success">Ürün Fiyatı: 2.400 TL TL</p>
+                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+                   <!--* 1. kedi maması bitişi-->
+                   <hr>
+
+                   <!--* 2. kedi maması başlangıç-->
+
+                   <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="resimler.img/kedi-modal1/kedi-mamasi2.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Royal Canin Exigent Kedi Maması 4 Kg
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                            <p class="h3 text-success">Ürün Fiyatı: 800 TL TL</p>
+                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                   <!--* 2. kedi maması bitişi-->
+                  <hr>
+                                      <!--* 3. kedi maması başlangıç-->
+                                      <div class="container mt-5">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img src="resimler.img/kedi-modal1/kedi-mamasi3.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h2>Royal Canin Persian Kedi Maması 2 kg
+                                                </h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                                                <p class="h3 text-success">Ürün Fiyatı: 520 TL TL</p>
+                                                <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>                
+
+                   <!--* 3. kedi maması bitişi-->
+                  <hr>
+                                      <!--* 4. kedi maması başlangıç-->
+
+                                    
+                                
+                                      <div class="container mt-5">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img src="resimler.img/kedi-modal1/kedi-mamasi4.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h2>Royal Canin BabyCat 2 kg
+                                                </h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                                                <p class="h3 text-success">Ürün Fiyatı: 520 TL TL</p>
+                                                <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>   
+
+                   <!--* 4. kedi maması bitişi-->
+                  <hr>
+                                      <!--* 5. kedi maması başlangıç-->
+
+                                      <div class="container mt-5">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img src="resimler.img/kedi-modal1/kedi-mamasi5.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h2>Proplan Sterilised Tavuklu Hindili Kedi Maması 1.5 kg
+                                                </h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                                                <p class="h3 text-success">Ürün Fiyatı: 425 TL TL</p>
+                                                <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+              
+                   <!--* 5. kedi maması bitişi-->
+                  <hr>
+                                      <!--* 6. kedi maması başlangıç-->
+
+                                      <div class="container mt-5">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img src="resimler.img/kedi-modal1/kedi-mamasi6.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h2>Pro Plan Elegant Somonlu Kedi Maması 1.5 Kg
+                                                </h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                                                <p class="h3 text-success">Ürün Fiyatı: 425 TL TL</p>
+                                                <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                   <!--* 6. kedi maması bitişi-->
+                  
+                    <hr>
+
+                  <button
+                    class="btn btn-danger btn-lg text-uppercase py-3"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                  Alışverişi Bitir  <i class="bi bi-x-lg"></i>
+                  </button>
+                  
+                  
+                  
+                </div>
+
+                
+
+                 
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!--*modal item 2-->
+    <div
+      class="modal fade p-modal"
+      id="PModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myTitle2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content text-center py-5 mt-2">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="resimler.img/close-icon.svg" alt="" />
+          </div>
+                <div class="modal-body">
+
+                  <!--* 1. kedi oyuncağı başlangıç-->
+
+                  <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="resimler.img/kedi-modal1/kedi-oyuncak1.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Senses 2.0 Wave Circuit Kedi Oyuncağı
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                            <p class="h3 text-success">Ürün Fiyatı: 285 TL TL</p>
+                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                  
+                  <!--* 1. kedi oyuncağı bitişi-->
+                  <hr>
+                    <!--* 2. kedi oyuncağı başlangıç-->
+
+                    <div class="container mt-5">
+                      <div class="row">
+                          <div class="col-md-3">
+                              <img src="resimler.img/kedi-modal1/kedi-oyuncak2.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                          </div>
+                          <div class="col-md-9">
+                              <h2>Bioline Catnipli Kedi Oyun Topu
+                              </h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                              <p class="h3 text-success">Ürün Fiyatı: 285 TL TL</p>
+                              <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                              
+                          </div>
+                      </div>
+                  </div>
+                    
+
+                
+                    <!--* 2. kedi oyuncağı bitişi-->
+                    <hr>
+                      <!--* 3. kedi oyuncağı başlangıç-->
+                      
+                      <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="resimler.img/kedi-modal1/kedi-oyuncak3.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                            </div>
+                            <div class="col-md-9">
+                                <h2>Royalist Renkli Kumaş Fare Kedi Oyuncağı
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                                <p class="h3 text-success">Ürün Fiyatı: 285 TL TL</p>
+                                <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                  <!--* 3. kedi oyuncağı bitişi-->
+                  <hr>
+                  <button
+                  class="btn btn-danger btn-lg text-uppercase py-3"
+                  data-bs-dismiss="modal"
+                  type="button"
+                >
+                Alışverişi Bitir  <i class="bi bi-x-lg"></i>
+                </button>
+
+                </div>
+                
+        </div>
+      </div>
+    </div>
+
+    <!--*modal item 3-->
+    <div
+      class="modal fade p-modal"
+      id="PModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myTitle3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content text-center py-5 mt-2">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="resimler.img/close-icon.svg" alt="" />
+          </div>
+                <div class="modal-body">
+                  <!--* 1. köpek maması başlangıç-->
+
+                  <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="resimler.img/kedi-modal1/kopek-maması1.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Royal Canin Mini Junior 2 kg
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                            <p class="h3 text-success">Ürün Fiyatı: 400 TL TL</p>
+                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                  <!--* 1. köpek maması bitiş-->
+                  <hr>
+
+                   <!--* 2. köpek maması başlangıç-->
+
+                   <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="resimler.img/kedi-modal1/kopek-maması2.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Royal Canin Mini Junior 2 kg
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                            <p class="h3 text-success">Ürün Fiyatı: 600 TL TL</p>
+                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                  <!--* 2. köpek maması bitiş-->
+                  
+                  <hr>
+                  <!--* 3. köpek maması başlangıç-->
+
+                  <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="resimler.img/kedi-modal1/kopek-maması3.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Reflex Kuzu Etli Köpek Maması 15 Kg
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                            <p class="h3 text-success">Ürün Fiyatı: 600 TL TL</p>
+                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                  
+                  <!--* 3. köpek maması bitiş-->
+
+                  <hr>
+                  
+                  <button
+                    class="btn btn-danger btn-lg text-uppercase py-3"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                     Alışverişi Bitir <i class="bi bi-x-lg"></i>
+                  </button>
+                </div>
+        </div>
+      </div>
+    </div>
+
+    <!--*modal item 4-->
+    <div
+      class="modal fade p-modal"
+      id="PModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myTitle4"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content text-center py-5 mt-2">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="resimler.img/close-icon.svg" alt="" />
+          </div>
+                <div class="modal-body">
+
+                  </p>
+
+                  <!--* kopek oyuncak 1 başlangıç-->
+
+                  <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="resimler.img/kedi-modal1/kopek-oyuncak1.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Pawise Yum N Fun Tavuk Aromalı Çiğneme Oyuncağı
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                            <p class="h3 text-success">Ürün Fiyatı: 120 TL TL</p>
+                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                  <!--* kopek oyuncak 1 bitiş-->
+                  
+                  <hr>
+                              <!--* kopek oyuncak 2 başlangıç-->
+
+                              <div class="container mt-5">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="resimler.img/kedi-modal1/kopek-oyuncak2.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h2>Pawise Süper Giggle Sesli Top 8 Cm
+                                        </h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                                        <p class="h3 text-success">Ürün Fiyatı: 170 TL TL</p>
+                                        <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                         
+                                    <!--* kopek oyuncak 2 bitiş-->
+                                    <hr>
+                         <!--* kopek oyuncak 3 başlangıç-->
+
+                         <div class="container mt-5">
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <img src="resimler.img/kedi-modal1/kopek-oyuncak3.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                              </div>
+                              <div class="col-md-9">
+                                  <h2>Pawise Giggle Jouet Sesli Halter
+                                  </h2>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                                  <p class="h3 text-success">Ürün Fiyatı: 160 TL TL</p>
+                                  <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                                  
+                              </div>
+                          </div>
+                      </div>
+
+                  <!--* kopek oyuncak 3 bitiş-->
+                      <hr>
+                  <button
+                    class="btn btn-danger btn-lg text-uppercase py-3"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    Alışverişi Bitir <i class="bi bi-x-lg"></i>
+                  </button>
+                </div>
+        </div>
+      </div>
+    </div>
+
+    <!--*modal item 5-->
+    <div
+      class="modal fade p-modal"
+      id="PModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myTitle5"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content text-center py-5 mt-2">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="resimler.img/close-icon.svg" alt="" />
+          </div>
+                <div class="modal-body">
+                                   <!--* papağan mama 1 başlangıç-->
+
+                                   <div class="container mt-5">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="resimler.img/kedi-modal1/kus-yem1.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h2>Jungle Poşet Muhabbet Kuşu Yemi 500 gr
+                                            </h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                                            <p class="h3 text-success">Ürün Fiyatı: 120 TL TL</p>
+                                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                   
+                                  <!--* papağan mama 1 bitiş-->
+                                  <hr>
+                                   <!--* papağan mama 2 başlangıç-->
+
+                                   <div class="container mt-5">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="resimler.img/kedi-modal1/kus-yem2.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h2>Jungle Poşet Muhabbet Kuşu Yemi 1 kg
+                                            </h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                                            <p class="h3 text-success">Ürün Fiyatı: 70 TL TL</p>
+                                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                       
+                                  <!--* papağan mama 2 bitiş-->
+                                  <hr>
+                                  <!--* papağan mama 3 başlangıç-->
+
+                                  <div class="container mt-5">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="resimler.img/kedi-modal1/kus-yem3.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h2>Jungle Ballı Tava Kraker 10'lu
+                                            </h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                                            <p class="h3 text-success">Ürün Fiyatı: 80 TL TL</p>
+                                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                  <!--* papağan mama 3 bitiş-->
+                                  <hr>
+                  <button
+                    class="btn btn-danger btn-lg text-uppercase py-3"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    Alışverişi Bitir <i class="bi bi-x-lg"></i>
+                  </button>
+                </div>
+        </div>
+      </div>
+    </div>
+
+    <!--*modal item 6-->
+    <div
+      class="modal fade p-modal"
+      id="PModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myTitle6"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content text-center py-5 mt-2">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="resimler.img/close-icon.svg" alt="" />
+          </div>
+                <div class="modal-body">
+                  <!--* papağan oyuncak 1 başlangıç-->
+
+                  <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="resimler.img/kedi-modal1/kus-oyuncak1.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Living World Kafes Zinciri Altın Renkli 90 cm
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                            <p class="h3 text-success">Ürün Fiyatı: 30 TL TL</p>
+                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                  <!--* papağan oyuncak 1 bitiş-->
+                  <hr>
+                   <!--* papağan oyuncak 2 başlangıç-->
+
+                   <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="resimler.img/kedi-modal1/kus-oyuncak2.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Eurogold Kuş ve Kemirgen Oyuncağı Lifli Turncu Meyve Dilimi&Ahşap Meyv 3545
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                            <p class="h3 text-success">Ürün Fiyatı: 10 TL TL</p>
+                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+               
+                  <!--* papağan oyuncak 2 bitiş-->
+                  <hr>
+                  <!--* papağan oyuncak 3 başlangıç-->
+
+                  <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="resimler.img/kedi-modal1/kus-oyuncak3.jpg" alt="Ürün Resmi" class="img-fluid mb-4" style="width: 238px; height: 238px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2>Lw Kuş Oyuncağı Denge Çubuğu - Kırmızı beyaz
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at neque ut velit efficitur maximus. Proin id justo nec urna varius ullamcorper.</p>
+                            <p class="h3 text-success">Ürün Fiyatı: 30 TL TL</p>
+                            <a href="#" class="btn btn-success btn-lg">Satın Al</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                  <!--* papağan oyuncak 3 bitiş-->
+                  <hr>
+                  <button
+                    class="btn btn-danger btn-lg text-uppercase py-3"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    Alışverişi Bitir <i class="bi bi-x-lg"></i>
+                  </button>
+                </div>
+        </div>
+      </div>
+    </div>
+    <!-- ! portfolio modals bitiş-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+      
+
+    <!-- ! java linkleri -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js.js"></script>
+    <!-- ! java linkleri bitişi -->
+  </body>
+</html>

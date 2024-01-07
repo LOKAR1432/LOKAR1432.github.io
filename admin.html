@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="anasayfa.html">
+  <title>Admin Paneli</title>
+  
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .admin-panel {
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+    }
+
+    .admin-panel header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 15px;
+    }
+
+    .admin-panel form {
+      padding: 20px;
+    }
+
+    .admin-panel label {
+      display: block;
+      margin-bottom: 8px;
+      text-align: left;
+    }
+
+    .admin-panel input {
+      width: calc(100% - 16px);
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .admin-panel button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .admin-panel button:hover {
+      background-color: #0056b3;
+    }
+
+    .admin-panel .error-message {
+      color: red;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="admin-panel">
+    <header>
+      <h2>Admin Paneli</h2>
+    </header>
+    <form id="login-form">
+      <label for="username">Kullanıcı Adı:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Parola:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Giriş Yap</button>
+      <button type="submit"><a href="anasayfa.html">Anasayfaya geri dön</a></button>
+    </form>
+    <p id="error-message" class="error-message"></p>
+  </div>
+
+  <script>
+    document.getElementById("login-form").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      if (username === "umar" && password === "12345") {
+        window.location.href = "anasayfa.html"; 
+      } else {
+        document.getElementById("error-message").innerText = "Hatalı kullanıcı adı veya parola.";
+      }
+    });
+  </script>
+</body>
+</html>
